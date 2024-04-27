@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Pangolin&display=swap');
+
+body {
+    font-family: "Pangolin", cursive;
+    font-size: 17px;
+    background-color: #ffddf7;
+    color: #de0d6e;
+    margin: 0;
+}
+
+.bgCont {
+    display: flex;
+    justify-content: center;
+}
+
+.bgImg {
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bgFill {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('rose.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.inpCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loveInp {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background-color: hsla(0, 0%, 100%, 0.95);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.loveInp h1 {
+    font-family: "Love Light", cursive;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.loveInp form input {
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+.submitBtn {
+    font-family: "Pangolin", cursive;
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-size: 13px;
+    padding: 10px 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
